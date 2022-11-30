@@ -11,7 +11,7 @@ export default function Header() {
   const loading = status === 'loading'
 
   useEffect(() => {
-    console.log('accessToken', session?.accessToken)
+    console.log('session', session)
   }, [session])
 
   return (
